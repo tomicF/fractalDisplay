@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Fraktali</title>
+  </head>
+  <body>
+    <!-- User input controls -->
+    <div id="controls">
+      <input id="equationInput" type="text" placeholder="Enter an equation" />
+      <button id="generateButton">Generate Fractal</button>
+      <br />
+      <!-- Zoom control -->
+      <input id="zoomInput" type="number" step="0.1" value="1" min="0.1" />
+      <button id="zoomButton">Zoom</button>
+    </div>
+
+    <!-- Canvas for the fractal -->
+    <canvas id="canv"></canvas>
+    <script src="main.js"></script>
+  </body>
+</html>
